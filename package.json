@@ -1,0 +1,22 @@
+{
+  "name": "rui_plataforma_qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "webdev": "cypress open --config baseUrl=https://rui-web-dev.azurewebsites.net/#/ --env ENVIRONMENT=webdev",
+    "dev": "cypress open --config baseUrl=http://localhost:9000/#/ --env ENVIRONMENT=dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-xpath": "^2.0.1",
+    "faker-br": "^0.4.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "typescript": "^5.2.2"
+  }
+}

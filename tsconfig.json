@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"]
+    },
+    "include": ["**/*.ts", "cypress/e2e/pages/gui/login.cy.js", "cypress/e2e/pages/gui/login.cy.js", "cypress/support/e2e.js", "cypress/support/e2e.js", "cypress/support/commands/commands_gui.js", "cypress/e2e/pages/gui/#5_consultar_advogados_elegiveis.cy.js", "cypress/e2e/pages/gui/#5_consultar_advogados_elegiveis.cy.js"]
+}
